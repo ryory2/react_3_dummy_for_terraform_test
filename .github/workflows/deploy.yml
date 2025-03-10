@@ -17,7 +17,7 @@ jobs:
       - name: Use Node
         uses: actions/setup-node@v2
         with:
-          node-version: 16 # Node.jsのバージョンに合わせる
+          node-version: 20 # Node.jsのバージョンに合わせる
 
       - name: Install dependencies
         run: npm ci
